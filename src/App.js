@@ -87,6 +87,11 @@ const App = () =>{
 
     return (
         <div>
+            <div>
+                <h1>
+                    ToDo List
+                </h1>
+            </div>
             <TextField 
                 value={text}
                 onChange={handleChange}
